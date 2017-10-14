@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vernon Lownndes Jr</title>
+    <link rel="stylesheet" type="text/css" href="bio.css">
+     <script language="JavaScript1.1">
+<!--
+
+/*
+JavaScript Image slideshow:
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScript here!
+*/
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+//-->
+</script>
+    </head>
+<body>
+    <div id="header">
+    <img src="MainLogo.png" alt="MaineBasketball">
+        <h1>University of Maine</h1>
+    
+    </div>
+    
+    <div id="main1">
+        <img src="MaineBasketball.png.jpg" alt="maine" name="slide" border=0 width=50 height=50>
+<script>
+<!--
+
+//configure the paths of the images, plus corresponding target links
+slideshowimages("MaineBasketball.png.jpg",)
+slideshowlinks("#","#","#","#","#")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=2000
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+//-->
+</script>
+        </div>
+    
+    <div id="main2">
+        <a href=earlylife.html>Early Life</a>
+        
+        <a href=highschool.html> High School</a>
+        
+        <a href=juco.html> Juco</a>
+        
+        <a href=maine.html> Maine </a> 
+        
+        <a href=index.html>Back Home</a>
+    </div>
+    <div id="content">
+    <h1>Maine</h1>
+    <p>I came up to the University of Maine on a visit shortly after my juco season ended. At first, I really didn't know what to expect with me coming from the south but I liked the coaches and the players and it seemed like a school where I could grow on and off the court. I moved into my apartment in August and since then I have been loving it here. the only thing I'm not ready for is the cold but it should be cool becasue I've never seen snow and I think its going to be a great experience.</p>
+    </div>
+    <div id="footer">
+  <a href=https://twitter.com/vbljr_15/media?lang=en>Follow Me on Twitter</a>
+        
+        <p><a href=https://www.instagram.com/vbljr.15/?hl=en>Follow Me on Instagram</a>
+        
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ </body>
+
+
+
+
+
+</html>

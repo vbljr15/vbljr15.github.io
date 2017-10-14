@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vernon Lowndes</title>
+    <link rel="stylesheet" type="text/css" href="bio.css">
+     <script language="JavaScript1.1">
+<!--
+
+/*
+JavaScript Image slideshow:
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScript here!
+*/
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+//-->
+</script>
+    </head>
+<body>
+    <div id="header">
+    <img src="salk.png" alt="USC Salkehatchie">
+        <h1>USC Salkehatchie</h1>
+    
+    </div>
+    
+    <div id="main1">
+        <img src="72-10team.img.png" alt="team" name="slide" border=0 width=100 height=100>
+<script>
+<!--
+
+//configure the paths of the images, plus corresponding target links
+slideshowimages("salkshot.jpg",)
+slideshowlinks("#","#","#","#","#")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=2000
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+//-->
+</script>
+        </div>
+    
+    <div id="main2">
+        <a href=earlylife.html>Early Life</a>
+        
+        <a href=highschool.html> High School</a>
+        
+        <a href=juco.html> Juco </a>
+        
+        <a href=maine.html> Maine</a>
+        
+        <a href=index.html>Back Home</a>
+    </div>
+    <div id="content">
+    <h1>Junior College</h1>
+    <p>After one year of prep school. I was offered a basketball scholarship to play juco basketball at USC Salkehatchie. My freshman year was kind of up and down and I struggled adjusting to college and being away from home and my true sophomore year was taken away because of a knee injury I suffered early in the season. But honestly now that I think about it, it was really the best thing for me. Because the year after I had the best year of my life. I was averaging 20 points a game and had a whole bunch of division 1 schools calling me and recruiting me. By the end of the season I earned awards for the season. with one being named to the Junior College All-American team and First Team All-Conference. I graduated from USC Salkehatchie last spring and shortly after I narrowed my list of schools down and choose to finish my last two years of college here at the University of Maine. </p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QCQXkCjogvE" frameborder="0" allowfullscreen></iframe>
+        
+
+        
+        
+    </div>
+    <div id="footer">
+  <a href=https://twitter.com/vbljr_15?lang=en>Follow Me on Twitter</a>
+        
+         <p><a href=https://www.instagram.com/vbljr.15/?hl=en>Follow Me on Instagram</a>
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+</html>
